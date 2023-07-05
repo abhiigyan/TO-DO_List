@@ -1,8 +1,8 @@
-var myNodelist = document.getElementsByTagName("LI");
+var mylist = document.getElementsByTagName("LI");
 
 var i;
 
-for (i = 0; i < myNodelist.length; i++) {
+for (i = 0; i < mylist.length; i++) {
 
   var span = document.createElement("SPAN");
 
@@ -12,7 +12,7 @@ for (i = 0; i < myNodelist.length; i++) {
 
   span.appendChild(txt);
 
-  myNodelist[i].appendChild(span);
+  mylist[i].appendChild(span);
 
 }
 
